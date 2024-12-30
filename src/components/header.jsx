@@ -171,7 +171,7 @@ const Header = () => {
     <>
       <nav className="p-4 flex justify-between items-center">
         <Link to="/">
-          <img src="/logo.png" className="h-20" alt="Logo" />
+          <img src="/gc.png" className="h-20" alt="Logo" />
         </Link>
         <div className="flex gap-8">
           {/* When the user is signed out */}

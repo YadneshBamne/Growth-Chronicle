@@ -10,7 +10,7 @@ const AppLayout = () => {
       <Header/>
       <Outlet />
      </main>
-     <div className='p-4 text-center bg-gray-800 mt-10'>Copyright 2025</div>
+     <div className='p-4 text-center bg-slate-900 mt-10'>&copy; Growth-Chronicles 2025</div>
     </div>
   )
 }
