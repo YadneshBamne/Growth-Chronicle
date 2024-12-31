@@ -49,7 +49,7 @@ const AboutMe = () => {
         {/* Social Media Icons */}
         <div className="flex justify-center space-x-6 py-4">
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/_atharvashelke_/profilecard/?igsh=OHdieGZzcTY2eTc="
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-pink-600 transition"
@@ -57,7 +57,7 @@ const AboutMe = () => {
             <Instagram size={24} />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com/_atharva_shelke?t=PIf6QhCRcMf_82Fs5f29Sg&s=08"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-blue-400 transition"
@@ -65,7 +65,7 @@ const AboutMe = () => {
             <Twitter size={24} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/atharva-shelke-a9a9a9226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-blue-600 transition"
