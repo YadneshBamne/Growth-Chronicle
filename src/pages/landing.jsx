@@ -20,7 +20,7 @@ import Autoplay from "embla-carousel-autoplay";
 
 const LandingPage = () => {
   return (
-    <main className="flex flex-col gap-10 sm:gap-20 py-10 sm:py-20">
+    <main className="flex flex-col gap-10 m-2 sm:gap-20 py-10 sm:py-20">
       <section className="text-center">
         <h1 className="flex flex-col justify-center items-center gradient-title text-4xl font-extrabold sm:text-6xl lg:text-8xl tracking-tighter py-4">
         Unleash the Power of Marketing
@@ -91,7 +91,7 @@ const LandingPage = () => {
       {faqs.map((faq, index)=>{
       return(
         <AccordionItem key={index} value={`item-${index + 1}`}>
-          <AccordionTrigger>{faq.question}</AccordionTrigger>
+          <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
           <AccordionContent>
             {faq.answer}
           </AccordionContent>
