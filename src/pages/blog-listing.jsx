@@ -60,7 +60,7 @@ const Bloglisting = () => {
   }
 
   return (
-    <div>
+    <div className="m-4">
       <h1 className="gradient-title font-extrabold text-6xl sm:text-7xl text-center pb-8">
         Latest Blogs
       </h1>
