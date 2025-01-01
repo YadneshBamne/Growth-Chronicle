@@ -26,7 +26,7 @@ const BlogPage = () => {
   }
 
   return (
-    <div className='flex flex-col gap-8 mt-5'>
+    <div className='flex flex-col gap-8 mt-9 ml-3'>
       <div className='flex flex-col-reverse gap-6 md:flex-row justify-between items-center'>
         <h1 className='gradient-title font-extrabold pb-3 text-4xl sm:text-6xl'>{blogs?.title}</h1>
         <img src={blogs?.topics?.topic_logo_url} className='h-12' alt={blogs?.title}></img>
