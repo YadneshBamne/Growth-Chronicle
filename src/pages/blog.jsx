@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import useFetch from '@/hooks/use-fetch';
 import { getSingleBlog } from '@/api/apiBlogs';
 import { BarLoader } from 'react-spinners';
+import MDEditor from '@uiw/react-md-editor';
 
 const BlogPage = () => {
 
@@ -32,6 +33,7 @@ const BlogPage = () => {
       </div>
       <h2 className='text-2xl sm:text3xl font-bold'>About this blog</h2>
       <p className='sm:text-lg'>{blogs?.description}</p>
+      <MDEditor.Markdown source={blogs?.requirements} className='bg-transparent sm:text-lg' />
     </div>
   )
 }
